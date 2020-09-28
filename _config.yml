@@ -18,11 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Boot2root 
+title: Deathstalker's BLOG 
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   I'm a part time engineer and a full time cybersecurity researcher.
-  I love playing ctfs and solving vulnerable machines.Wannabe pentester one day:)
+  I love playing ctfs and solving vulnerable machines.
+  I'll post writeups for the boxes i solve on TryHackme and HackTheBox.
+  Wannabe pentester one day:)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb

@@ -3,6 +3,7 @@ layout: default
 title:  "BOUNTY HACKER'S Writeup"
 date:   2020-09-27 13:43:18 +0530
 categories: tryhackme
+permalink: /:categories/bountyhacker
 ---
 
 so we'll start with our nmap scan on the machine and see how it goes
