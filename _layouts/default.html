@@ -10,9 +10,10 @@
   </head>
 
   <body>
+
 <!--
     <header>
-      <div class="wrapper">
+      <div class="container">
         <div id="title">
           <a id="a-title" href="{{ '/' | relative_url }}">
           <h1 style="text-align:center">{{ site.title | default: site.github.repository_name }}</h1>
@@ -30,26 +31,34 @@
     </header>
 -->
 
+<!--
+  <div id="wrapper">
+    <div class="container">
+      <section id="main_content">
+        {{ content }}
+      </section>
+    </div>
+  </div>
+-->
 
+   
     <div class="container">
 
       <section>
-       
-          <h1 style="text-align:center"><strong>{{ site.title | default: site.github.repository_name }}</strong></h1>
+        <div id="title">
+          <h1 style="text-align:center;"><strong>{{ site.title | default: site.github.repository_name }}</strong></h1>
           <p>{{ site.description | default: site.github.project_tagline }}</p>
-          <p>Check me up on: <a href="https://github.com/bhavikmalhotra">Github</a> , <a href="https://tryhackme.com/p/deathstalker01">Tryhackme</a></p> 
+          <p style="text-align:center;">Check me up on: <a href="https://github.com/bhavikmalhotra">Github</a> , <a href="https://tryhackme.com/p/deathstalker01">Tryhackme</a></p> 
           <hr>
-          <span>Project maintained by <a href="https://github.com/bhavikmalhotra">deathstalker01</a></span>
-        
-        
-
+          <span class="credits left">Project maintained by <a href="https://github.com/bhavikmalhotra">deathstalker01</a></span>
+          <span class="credits right">Project maintained by <a href="https://github.com/bhavikmalhotra">deathstalker01</a></span>
         {{ content }}
-
+        </div>
       </section>
 
     </div>
 
-    
+
 
 
 <!--
